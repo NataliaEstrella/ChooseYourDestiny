@@ -10,8 +10,28 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+
+        
+        char name[256];
+        
+    
+        
+        NSLog(@"Hello, Whats your name?");
+        
+        scanf("%s", &name);
+        
+        NSLog(@"Hi, nice to meet you %@!", @(name));
+        
+        
+        
+    
+        
+        
+        
+        
+        
+    
+        
     }
     return 0;
 }

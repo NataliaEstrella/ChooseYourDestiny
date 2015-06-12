@@ -77,15 +77,15 @@ int main(int argc, const char * argv[])
                 
                 scanf("%i", &prepared);
                 if (prepared) {
-                    NSLog(@"You:Suren/ ::Its the night of the party and you're figuring out what to pack before the party::\nYou: Should I pack this lighter?\nYou:Will I be out there long enough to need my charger?\nYou:Will everyone be asleep by the time i get home? ");
+                    NSLog(@"You:Sure\n ::Its the night of the party and you're figuring out what to pack before the party::\nYou: Should I pack this lighter?\nYou:Will I be out there long enough to need my charger?\nYou:Will everyone be asleep by the time i get home? ");
                     scanf("%i%i%i", &lighter, &charger, &keys);
                     if (lighter && charger && keys) {
-                        NSLog(@"You arrive at the party:/nSomeone tries to grab you from behind, but you stab them with your key.\nYou choke out the other attacker with your charger cord.\nBefore you walk away you set the place on fire with your lightern/::THE END:: ");
+                        NSLog(@"You arrive at the party:\nSomeone tries to grab you from behind, but you stab them with your key.\nYou choke out the other attacker with your charger cord.\nBefore you walk away you set the place on fire with your lighter\n::THE END:: ");
                     } else {
                         NSLog(@"You get kidnapped and sacrificed to the lady in the woods");
                     }
                 } else {
-                    NSLog(@"::You ho home and die of boredom:: The END");
+                    NSLog(@"::You go home and die of boredom:: The END");
                 }
             }
             else {

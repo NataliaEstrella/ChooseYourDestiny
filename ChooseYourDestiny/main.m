@@ -55,6 +55,11 @@ int main(int argc, const char * argv[])
         scanf("%i", &grade);
         NSLog(@"Creepy Kid: Oh cool. Grade %i, that's dope.", grade);
         
+//        printf("Press enter to continue\n");
+//        char enter = 0;
+//        while (enter != '\r' && enter != '\n') { enter = getchar(); }
+//        printf("Thank you for pressing enter\n");
+//        AT SOME POINT PLEASE PROPERLY INCORPORATE THIS CODE FROM STACK
         
         if (grade <= 6){
            

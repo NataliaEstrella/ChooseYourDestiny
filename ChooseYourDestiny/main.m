@@ -53,7 +53,7 @@ int main(int argc, const char * argv[])
         
         
         scanf("%i", &grade);
-        NSLog(@"Creepy Kid: Oh cool. Grade %i, that's dope", grade);
+        NSLog(@"Creepy Kid: Oh cool. Grade %i, that's dope.", grade);
         
         
         if (grade <= 6){
@@ -61,10 +61,10 @@ int main(int argc, const char * argv[])
             NSLog(@"Creepy Kid: Have ave you heard about the aliens that live in the abandoned pool?");
             scanf("%i", &alien);
             if (alien) {
-                NSLog(@"Creepy Kid: Oh, cool. So probably know all the teachers are aliens too that are trying to go back to their home planet.");
+                NSLog(@"Creepy Kid: Oh, cool. So you probably know that all the teachers are aliens looking for a way back to their home planet::END::.");
             }
             else {
-                NSLog(@"Creepy Kid: No?... Oh, haha just kidding.");
+                NSLog(@"Creepy Kid: No?... Oh, haha just kidding::END::.");
             }
         }
         else
@@ -80,7 +80,7 @@ int main(int argc, const char * argv[])
                     NSLog(@"You:Sure\n ::Its the night of the party and you're figuring out what to pack before the party::\nYou: Should I pack this lighter?\nYou:Will I be out there long enough to need my charger?\nYou:Will everyone be asleep by the time i get home? ");
                     scanf("%i%i%i", &lighter, &charger, &keys);
                     if (lighter && charger && keys) {
-                        NSLog(@"You arrive at the party:\nSomeone tries to grab you from behind, but you stab them with your key.\nYou choke out the other attacker with your charger cord.\nBefore you walk away you set the place on fire with your lighter\n::THE END:: ");
+                        NSLog(@"You arrive at the party:\nSomeone tries to grab you from behind, but you stab them with your key.\nYou choke out the other attacker with your charger cord.\nBefore you walk away, you set the place on fire with your lighter\n::THE END:: ");
                     } else {
                         NSLog(@"You get kidnapped and sacrificed to the lady in the woods");
                     }
